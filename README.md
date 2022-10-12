@@ -1,4 +1,4 @@
-# Group YYY - {Short snappy Title of your project}
+# Group 25 - {Jogo Bonito}
 
 **Please remember to update this section**
 
