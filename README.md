@@ -25,8 +25,8 @@ Details for Milestone are available on Canvas (left sidebar, Course Project).
 **Please remember to update this section**
 
 - Samin Intisar: Second year Computer Science major, huge football fan and love playing the guitar!
-- Person 2: My name is Jesse Lazzari, I am a third year computer science major and in my free time I like to ski!
-- Person 3: one sentence about you!
+- Jesse Lazzari: My name is , I am a third year computer science major and in my free time I like to ski!
+- Ritvik Khurana: Something? Hello World!
 
 ## Images
 
