@@ -10,7 +10,7 @@ I have been a passionate football fan from a young age. So, when I stumbled upon
 
 ## Describe your dataset in about 150-200 words
 
-This data was provided by the Premier League, Ligue 1, Bundesliga, Serie A and La Liga. It was created thanks to the public player stats records, the author of this dataset acknowledges: <https://fbref.com/en/comps/Big5/stats/players/Big-5-European-Leagues-Stats> as the source of all these player statistics. The dataset contains football player stats per 90 minutes, during the 2021-2022 football season. The data includes stats like a player's position, squad name, age, goals, shots on target, goals per shot, expected goals,pass accuracy, successful tackles, shot accuracy, etc… The purpose of this dataset is to help the people associated with the beautiful game- whether you're in the media, gambling industry, work for a club, or are a fan, this data has everyone covered. The data has been assembled through a combination of live data collected by analysts covering each match, with the aid of tracking perimeter cameras that track the ball’s location as well as the players’ positions and movements. We speculate that we will be able to pull some interesting discoveries about football players by comparing these statistics.
+This data was provided by the Premier League, Ligue 1, Bundesliga, Serie A and La Liga. It was created thanks to the public player stats records, the author of this dataset acknowledges as the source of all these player statistics. The dataset contains football player stats per 90 minutes, during the 2021-2022 football season. The data includes stats like a player's position, squad name, age, goals, shots on target, goals per shot, expected goals,pass accuracy, successful tackles, shot accuracy, etc… The purpose of this dataset is to help the people associated with the beautiful game- whether you're in the media, gambling industry, work for a club, or are a fan, this data has everyone covered. The data has been assembled through a combination of live data collected by analysts covering each match, with the aid of tracking perimeter cameras that track the ball’s location as well as the players’ positions and movements. We speculate that we will be able to pull some interesting discoveries about football players by comparing these statistics.
 
 ## Team Members
 
@@ -21,14 +21,16 @@ This data was provided by the Premier League, Ligue 1, Bundesliga, Serie A and L
 
 ## Images
 
-**Please remember to update this section and remove the test image!**
+<!-- **Please remember to update this section and remove the test image!** -->
 
-{You can use this area for any images you want to include}
+<!-- {You can use this area for any images you want to include} -->
 
-<img src ="images/test.png" width="100px">
+<!-- <img src ="images/test.png" width="100px"> -->
 
 ## References
 
-**Please remember to update this section**
+<!-- **Please remember to update this section** -->
 
-{Add your credits, acknowledgements, references, or citations **including a link to the data source** here}
+[Raw Data](https://fbref.com/en/comps/Big5/stats/players/Big-5-European-Leagues-Stats)
+
+<!-- {Add your credits, acknowledgements, references, or citations **including a link to the data source** here} -->
