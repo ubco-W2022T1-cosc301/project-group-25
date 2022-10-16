@@ -17,7 +17,7 @@ This data was provided by the Premier League, Ligue 1, Bundesliga, Serie A and L
 
 - Samin Intisar: Second year Computer Science major, huge football fan and love playing the guitar!
 - Jesse Lazzari: I am a third year computer science major and in my free time I like to ski!
-- Ritvik Khurana: Something? Hello World!
+- Ritvik Khurana: Hey, also a 2nd year CS major, I like to watch TV shows and play FPS games.
 
 ## Images
 
