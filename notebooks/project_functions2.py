@@ -6,9 +6,10 @@ def unprocessed():
     return df
 
 def load_and_process(path):
+    raw = pd.read_csv(path,encoding="ISO-8859-1", delimiter = ";")
     df2 = (
         pd.read_csv(path,encoding="ISO-8859-1", delimiter = ";")
-        .drop(["Carries","CarTotDist", "CarPrgDist", "CarProg", "Car3rd", "CPA", "OG"], axis=1)
+        .copy().drop(["Carries","CarTotDist", "CarPrgDist", "CarProg", "Car3rd", "CPA", "OG"], axis=1)
         .dropna(axis=0)
         .reset_index()
         .rename(columns={"Comp":"League","CrdR":"RedCards"})
