@@ -7,23 +7,11 @@ def load():
     df = pd.read_csv("../data/raw/Stats.csv",encoding="ISO-8859-1", delimiter = ";")
     return df
 
-def remove_excluding_positions(df):
+def remove_players(df):
     df = df.drop(df[df.Min < 300].index)
     for each in excluding_positions:
         df = df.drop(df[df.Pos == each].index)
         
-    return df
-
-def remove_players(df):    
-    df = df.drop(df[df.Min < 300].index)
-    df = df.drop(df[df.Pos == 'GK'].index)
-    df = df.drop(df[df.Pos == 'GKMF'].index)
-    df = df.drop(df[df.Pos == 'MFFW'].index)
-    df = df.drop(df[df.Pos == 'FWMF'].index)
-    df = df.drop(df[df.Pos == 'MFDF'].index)
-    df = df.drop(df[df.Pos == 'DFMF'].index)
-    df = df.drop(df[df.Pos == 'FWDF'].index)
-    df = df.drop(df[df.Pos == 'DFFW'].index)
     return df
 
 def forwards(df):
