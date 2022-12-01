@@ -6,21 +6,37 @@ This project stemmed from our passion as football fans, and when we stumbled upo
 
 ## Exploratory Data Analysis Highlights
 
- ** to do, add eda highlights for question 1 **
+At first we decided to observe any correlations between various offensive and defensive stats. The lighter the color of the block in the heatmap, the better the correlation. We see that there is strong correlations between goals and shots, passes and touches, goal creating actions and assists, tackles and interceptions etc.
 
-Here we decided to observe if there were any correlations between notable offensive and defensive statistics, we see that there is strong correlation between the different blocking statistics and there appears to be correlation between shots on target and goals as well which is expected.
+<img src="images/heatmap.png" width="700">
 
-<img src="images/heatmap.png" width="600">
+Here we have plotted a bar chart to figure out which attributes are dominated by each player positions. We can see that the stats that directly relate to involvement in the goal scoring are dominated by the forwards. The midfielders show prowess in both the attacking and defensive attributes. The more defensive attributes such as tackles, blocks, interceptions and clearances are dominated by the defenders.
+
+![attributes](images/attributes.png)
 
 In this graph to explore one aspect of player performance we have grouped average red cards received per 90 minutes for players in each league. From this graph we can see that on average, players in Ligue 1 receive the most red cards out of all 5 leagues, whereas players in the Bundesliga league receive the least.
 
 ![bar1](images/bar1.png)
 
-
-
 ## Research Question 1
 
-** to do: Question 1 + Results: Clearly state your research question and include 2-3 visualizations that helped you answer your research question. You can create multi-panel figures, but each of your visualizations must speak directly to your research question, and any insights you were able to get from it should be clearly articulated in the figure caption/description. **
+Our first research question is to find out what are the dominant attributes of the footballers in different positions. In order to do so, we had to group the 3 different positions and compare various stats between them. We expect that the forwards will dominate the attacking stats and the defenders will dominate the defensive stats. However, we were curious to find the how each positions performed in the more neutral stats of the game such as touches, passes, distance covered etc. Moreover we wanted to see how the midfielders performed in the game as their play-style is a mixture of attacking and defending.
+
+From this box and whisker plot of pass completion stats, we can see that the defenders and midfielders pass the ball almost equally per 90 minutes. However, the forwards complete much less passes than the other two positions.
+
+![passes](images/passes.png)
+
+A similar trend is noticed when we look at the distance traveled with the ball by each positions. The forwards are doing much worse than the midfielders and defenders.
+
+![distance](images/distance.png)
+
+The following scatter plot shows the number of tackles and interceptions done by players in each positions. As these are both defensive attributes, we could already expect the forwards to do much worse in both of them. The plots confirm our expectations. An interesting observation is that the midfielders are intercept more, but defenders are tackle more.
+
+![scatter](images/scatter.png)
+
+Here we are comparing a neutral stat- number of touches of the ball per 90 minutes. We would expect each positions to perform equally. However, we can again see that the forwards are doing worse than the other positions.
+
+![touches](images/touches.png)
 
 If you are interested you can [find the full analysis notebook here, including the code and the data here!](https://github.com/ubco-W2022T1-cosc301/project-group-25/blob/main/notebooks/analysis1.ipynb)
 
@@ -71,10 +87,11 @@ From this observation we can see that La Liga scored the highest on this point s
 
 If you are interested you can [find the full analysis notebook here, including the code and the data here!](https://github.com/ubco-W2022T1-cosc301/project-group-25/blob/main/notebooks/analysis2.ipynb)
 
-
 ## Conclusion
 
-** to do, add key findings and conclusion for research question 1 and combine both **
+Key findings for research question 1: We can see a trend in passes completed, touches and distance covered. The midfielders and defenders dominate these attributes in the game. They are head to head with each other, whilst the forwards are lagging behind. When it comes to tackles and interceptions, we can again see that the forwards are contributing much less than the other two positions. However, we can observe in the scatter plot that defenders  intercept more and midfielders tackle more. The forwards dominate on the attacking attributes such as goals and shots.
+
+Research question 1 conclusion: Midfielders and Defenders have similar play-styles. They dominate on the same attributes and are weak in the same attributes. When it comes to most attributes, the forwards have less contribution. They spend less time on the ball and they touch the ball fewer times than everyone else. Overall, midfielders and defenders are more involved in the game. Therefore, we can conclude that in an average football match the forwards will be on-screen fewer times on screen than the rest.
 
 Key findings for research question 2: Bundesliga and Ligue 1 have similar playstyles when it comes to aggressiveness, since these two leagues scored highest on the initiative points aggregation, and thus have players who take the most offensive initiative on average. Bundesliga has the best defensive players on average, whereas Ligue 1 scored the lowest meaning their leagues playstyle constitutes less defensive play. La Liga scored the highest on the reckless points aggregation, concluding that this league was the least disciplined and has the most reckless playstyle, whereas the Premier League has the most disciplined players on average.
 
