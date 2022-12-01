@@ -43,7 +43,7 @@ If you are interested you can [find the full analysis notebook here, including t
 ## Research Question 2
 
 Our second research question is to compare average player performance across the top 5 football leagues, investigate the differences in playstyles between them, and conclude which league has the best performing players on average.
-To compare the 5 different leagues, I have grouped player statistics that I believe are most relative when considering certain playstyles and player strengths on average
+To compare the 5 different leagues, We have grouped player statistics that we believe are most relative when considering certain playstyles and player strengths on average
 
 Aggressive Initiative points:
 
@@ -87,12 +87,12 @@ From this observation we can see that La Liga scored the highest on this point s
 
 If you are interested you can [find the full analysis notebook here, including the code and the data here!](https://github.com/ubco-W2022T1-cosc301/project-group-25/blob/main/notebooks/analysis2.ipynb)
 
+## Key Findings
+
+In regards to our first research question, we can see a trend in passes completed, touches and distance covered. The midfielders and defenders dominate these attributes in the game. They are head to head with each other, whilst the forwards are lagging behind. When it comes to tackles and interceptions, we can again see that the forwards are contributing much less than the other two positions. However, we can observe in the scatter plot that defenders  intercept more and midfielders tackle more. The forwards dominate on the attacking attributes such as goals and shots.
+
+In regards to our second research question, Bundesliga and Ligue 1 have similar playstyles when it comes to aggressiveness, since these two leagues scored highest on the initiative points aggregation, and thus have players who take the most offensive initiative on average. Bundesliga has the best defensive players on average, whereas Ligue 1 scored the lowest meaning their leagues playstyle constitutes less defensive play. La Liga scored the highest on the reckless points aggregation, concluding that this league was the least disciplined and has the most reckless playstyle, whereas the Premier League has the most disciplined players on average.
+
 ## Conclusion
 
-Key findings for research question 1: We can see a trend in passes completed, touches and distance covered. The midfielders and defenders dominate these attributes in the game. They are head to head with each other, whilst the forwards are lagging behind. When it comes to tackles and interceptions, we can again see that the forwards are contributing much less than the other two positions. However, we can observe in the scatter plot that defenders  intercept more and midfielders tackle more. The forwards dominate on the attacking attributes such as goals and shots.
-
-Research question 1 conclusion: Midfielders and Defenders have similar play-styles. They dominate on the same attributes and are weak in the same attributes. When it comes to most attributes, the forwards have less contribution. They spend less time on the ball and they touch the ball fewer times than everyone else. Overall, midfielders and defenders are more involved in the game. Therefore, we can conclude that in an average football match the forwards will be on-screen fewer times on screen than the rest.
-
-Key findings for research question 2: Bundesliga and Ligue 1 have similar playstyles when it comes to aggressiveness, since these two leagues scored highest on the initiative points aggregation, and thus have players who take the most offensive initiative on average. Bundesliga has the best defensive players on average, whereas Ligue 1 scored the lowest meaning their leagues playstyle constitutes less defensive play. La Liga scored the highest on the reckless points aggregation, concluding that this league was the least disciplined and has the most reckless playstyle, whereas the Premier League has the most disciplined players on average.
-
-Research question 2 conclusion: Overall, players from the Bundesliga league have the best performance on average. Since players from this league on average per 90 minutes scored the most goals, have the most assists, scored the highest on the Press statistic, receive the least number of red cards, were awarded the most defensive points, initiative points, and scored among the lowest on the reckless points aggregation.
+When we compare what attribute a player is dominant in given their position on the field, midfielders and defenders have similar playstyles. They dominate on the same attributes and are weak in the same attributes. When it comes to most attributes, the forwards have less contribution. They spend less time on the ball and they touch the ball fewer times than everyone else. Overall, midfielders and defenders are more involved in the game. Therefore, we can conclude that in an average football match the forwards will be on-screen fewer times on screen than the rest. Additionally, as we compare average player performance across the top 5 football leagues we can conclude that overall, players from the Bundesliga league have the best performance on average. Since players from this league on average per 90 minutes scored the most goals, have the most assists, scored the highest on the Press statistic, receive the least number of red cards, were awarded the most defensive points, initiative points, and scored among the lowest on the reckless points aggregation.
