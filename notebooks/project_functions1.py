@@ -22,10 +22,10 @@ def rename_columns(df):
     
     
 def forwards(df):
-    return df[df.Pos == "FW"][columns]
+    return df[df.Position == "FW"][columns]
 
 def midfielders(df):
-    return df[df.Pos == "MF"][columns]
+    return df[df.Position == "MF"][columns]
 
 def defenders(df):
-    return df[df.Pos == "DF"][columns]
+    return df[df.Position == "DF"][columns]
