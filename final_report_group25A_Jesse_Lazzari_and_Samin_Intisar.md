@@ -1,4 +1,4 @@
-# Group 25A - "Jogo Bonito" an analysis by Jesse Lazzari and Samin Intisar
+# Group 25A - "Joga Bonito" an analysis by Jesse Lazzari and Samin Intisar
 
 ## Introduction
 

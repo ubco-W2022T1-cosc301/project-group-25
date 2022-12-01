@@ -1,4 +1,4 @@
-,Pos,Goals,Shots,G/Sh,Assists,PasCmp,Touches,DriPast,CarTotDist,Crs,GCA,TklWon,Press,Clr,Int,Blocks,Fls,AerWon
+,Position,Goals,Shots,Goals/Shots,Assists,Passes,Touches,Dribbles,Distance,Crosses,Goal_creating_actions,Tackles,Presses,Clearances,Interceptions,Blocks,Fouls,Aerials_Won
 0,FW,0.0,2.22,0.0,0.12,11.1,33.0,0.86,74.7,0.25,0.25,0.86,23.5,0.86,0.99,1.23,2.22,2.72
 1,FW,0.5,2.71,0.15,0.12,14.6,32.4,1.14,76.8,0.7,0.35,0.64,13.6,0.9,0.44,0.96,1.25,2.39
 2,FW,0.31,2.16,0.14,0.13,14.8,33.7,0.75,83.0,0.48,0.18,0.4,14.6,0.66,0.44,1.1,1.37,2.47
