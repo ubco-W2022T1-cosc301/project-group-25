@@ -15,6 +15,12 @@ def remove_players(df):
         
     return df
 
+def rename_columns(df):
+    df.rename(columns = {"Pos":"Position", "G/Sh":"Goals/Shots", "PasCmp":"Passes", "DriPast":"Dribbles", "CarTotDist":"Distance", "Crs":"Crosses", "GCA":"Goal_creating_actions", "TklWon":"Tackles", "Press":"Presses", "Clr":"Clearances", "Int":"Interceptions", "Fls":"Fouls", "AerWon":"Aerials Won"}, inplace = True)
+    
+    return df
+    
+    
 def forwards(df):
     return df[df.Pos == "FW"][columns]
 
