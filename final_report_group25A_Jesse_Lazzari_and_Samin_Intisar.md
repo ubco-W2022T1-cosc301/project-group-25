@@ -10,7 +10,7 @@ At first we decided to observe any correlations between various offensive and de
 
 <img src="images/heatmap.png" width="700">
 
-Here we have plotted a bar chart to figure out which attributes are dominated by each player positions. We can see that the stats that directly relate to involvement in the goal scoring are dominated by the forwards. The midfielders show prowess in both the attacking and defensive attributes. The more defensive attributes such as tackles, blocks, interceptions and clearances are dominated by the defenders.
+Here we have plotted a bar chart to figure out which attributes are dominated by each player positions. We can see that the stats that directly relate to involvement in the goal scoring are dominated by the forwards. These stats include goals, shots, assists and chances created. The more defensive attributes such as tackles, blocks, interceptions and clearances are dominated by the defenders. The midfielders show prowess in both the attacking and defensive attributes, but they do not dominate on any particular stats.
 
 ![attributes](images/attributes.png)
 
@@ -26,7 +26,7 @@ From this box and whisker plot of pass completion stats, we can see that the def
 
 ![passes](images/passes.png)
 
-A similar trend is noticed when we look at the distance traveled with the ball by each positions. The forwards are doing much worse than the midfielders and defenders.
+A similar trend is noticed when we look at the distance traveled with the ball by each positions. The forwards are doing much worse than the midfielders and defenders. The midfielders and defenders almost run the same distance with the ball.
 
 ![distance](images/distance.png)
 
@@ -89,7 +89,7 @@ If you are interested you can [find the full analysis notebook here, including t
 
 ## Key Findings
 
-Regarding our first research question, we can see a trend in passes completed, touches and distance covered. The midfielders and defenders dominate these attributes in the game. They are head-to-head with each other, whilst the forwards are lagging. When it comes to tackles and interceptions, we can again see that the forwards are contributing much less than the other two positions. However, we can observe in the scatter plot that defenders intercept more and midfielders tackle more. The forwards dominate on the attacking attributes such as goals and shots.
+Regarding our first research question, we can see a trend in passes completed, touches and distance covered. The midfielders and defenders dominate these attributes in the game. They are head-to-head with each other, whilst the forwards are lagging behind. When it comes to tackles and interceptions, we can again see that the forwards are contributing much less than the other two positions. However, we can observe in the scatter plot that defenders intercept more and midfielders tackle more. The forwards dominate on the attacking attributes such as goals, assists, shots and chances created.
 
 Regarding our second research question, Bundesliga and Ligue 1 have similar playstyles when it comes to aggressiveness, since these two leagues scored highest on the initiative points aggregation, and thus have players who take the most offensive initiative on average. Bundesliga has the best defensive players on average, whereas Ligue 1 scored the lowest meaning their leagues playstyle constitutes less defensive play. La Liga scored the highest on the reckless points aggregation, concluding that this league was the least disciplined and has the most reckless playstyle, whereas the Premier League has the most disciplined players on average.
 
