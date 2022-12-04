@@ -23,6 +23,7 @@ This graph shows us that most of the experienced players lie above the age of 22
 
 ![Age v Dribbles](images/Treemap.png)
 
+
 This graph is a treemap of players' ages where the size of each block/rectangle refers to the Sucessful Dribbles factor (The larger the size, the more dribbles in a certain age group). The grpah indicates that younger players (age : 22 - 24) have significantly more dribbles compared to older players. I believe this is because, dribbling is one of the many ways younger players improve. Dribbling helps them with better touches on the ball, more accurate passes. I think the younger players employ this stratagy due to them not being experienced enough, and therefore, still having the mindset they had on training grounds. 
 
 ## RQ : Find the prime age of playing for this dataset and compare it to top players currently in their prime.
