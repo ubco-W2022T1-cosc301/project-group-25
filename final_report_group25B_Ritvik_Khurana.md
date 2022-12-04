@@ -19,10 +19,10 @@ Considering the factors mentioned above among others, I believe this dataset is 
 ## Exploratory Data Analysis:
 
 ![Age v Minutes played](images/MinAgePlot.png)
+
 This graph shows us that most of the experienced players lie above the age of 22, as the box range significantly increases at that age compared to younger ages. However, we would expect that after a certain age the graph should start to dib back down. This does happen a little bit after the ages 29 and 30 but we don't see as much of a significant change as we did before. Moreover, as the ages increase beyond 30 we should see more dips in the graph, but, instead we see some increases at age 34 and 37. I believe this is due to some exceptional players bringing up the box for other players.
 
 ![Age v Dribbles](images/Treemap.png)
-
 
 This graph is a treemap of players' ages where the size of each block/rectangle refers to the Sucessful Dribbles factor (The larger the size, the more dribbles in a certain age group). The grpah indicates that younger players (age : 22 - 24) have significantly more dribbles compared to older players. I believe this is because, dribbling is one of the many ways younger players improve. Dribbling helps them with better touches on the ball, more accurate passes. I think the younger players employ this stratagy due to them not being experienced enough, and therefore, still having the mindset they had on training grounds. 
 
