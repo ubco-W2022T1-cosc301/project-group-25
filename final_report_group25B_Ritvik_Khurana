@@ -2,12 +2,9 @@
 
 ## Introduction:
 
-This project is a result of our love for game, and when we saw statistics for players of various age groups in the top 5 leagues. In this report we aim to study and compare the performances of the players in each age group.
-The dataset provides us with an array  of unique data that will be essential to our analysis, most of thses stats are often overseen by people when evaluating how skilled a football player is, therefore, it makes sense for us to analyse this data.
+The goal of this project is to reflect the skills we have learned in COSC 301 and apply them to a dataset of our choice to produce an analytical report. This report then helps us to reach our conclusions about our selected research questions we chose for this dataset. Our choosen dataset is the "2021-2022 Football Player Stats", this dataset contains an array of football player statistics and metrics that we can make use of in our analysis and to answer my research question **"To find the prime age of playing for this dataset and comparing it to top players in their prime"**.
 
 ## Dataset Reliability
-
-As I conclude my analysis of the "2021-2022 Football Player Stats" dataset with the research question "Identidy the prime age of playing for this dataset and comparing it to top players in their prime.", we need to keep in mind that this analysis applies to only this dataset, and we need to consider the reliability of it.
 
 Reliablity factors:
 
